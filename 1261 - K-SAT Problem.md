@@ -16,10 +16,15 @@ check if it is valid or nor.
 For example I am output for this
 
 1
+
 3 4 2
+
 +1 -2
+
 +3 +4
+
 -3 -1
+
 1 4   // here 1 indicates how many values are taken
 
 the number(s) taken is 4
@@ -38,9 +43,13 @@ the solution satisfied wishes of 3 of them
 So the answer is Yes
 
 For this testcase
+
 1
+
 1 5 3
+
 +1 -2 +4
+
 2 2 5 
 
 we take 2 and 5 
