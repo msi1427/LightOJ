@@ -1,5 +1,7 @@
 1261 - K-SAT Problem
 
+Problem link :- http://www.lightoj.com/volume_showproblem.php?problem=1261
+
 First take everyone's wishes. you can do it in a 2D array or vector
 That may be an n*k 2D array
 negative numbers means rejected numbers or rejected wish
