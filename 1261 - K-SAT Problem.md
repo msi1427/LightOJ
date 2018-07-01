@@ -32,12 +32,15 @@ For example I am output for this
 the number(s) taken is 4
 
 First person's wish "you can accept 1 or reject 2"
+
 -> only 4 is taken so, you rejected 2 that means wish has been satisfied
 
 Second person's wish "you can accept 3 or accept 4"
+
 -> 4 is taken that means wish has been satisfied
 
 Third person's wish "you can reject 3 or reject 1"
+
 -> only 4 is taken so, you rejected both 3 and 1 that means wish has been satisfied
 
 the solution satisfied wishes of 3 of them
@@ -57,6 +60,7 @@ For this testcase
 we take 2 and 5 
 
 but the wish was to take 1 or 4 or to reject 2
+
 the solution does none
 
 So the answer is No.
