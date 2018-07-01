@@ -34,7 +34,7 @@ the number(s) taken is 4
 First person's wish "you can accept 1 or reject 2"
 -> only 4 is taken so, you rejected 2 that means wish has been satisfied
 
-Second person's wish "you can accept 3 or accept 2"
+Second person's wish "you can accept 3 or accept 4"
 -> 4 is taken that means wish has been satisfied
 
 Third person's wish "you can reject 3 or reject 1"
