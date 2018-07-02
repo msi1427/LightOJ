@@ -5,7 +5,7 @@ Problem link : http://www.lightoj.com/volume_showproblem.php?problem=1072
 In the first figure, the circle contains 6 small circles . So the angle is (PI/6) . 
 When the circle contains n small circles then the angle will be (PI/n) .
 
-Now from the knowledge of trigonometric ratio , we can write,
+Now from the knowledge of trigonometric ratio , we know,
 
 sin(theta) = opposite / hypotenuse
 
