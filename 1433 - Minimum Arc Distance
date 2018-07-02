@@ -1,3 +1,8 @@
+1433 - Minimum Arc Distance
+
+Problem link : http://www.lightoj.com/volume_showproblem.php?problem=1433
+
+We know,
 Arc distance = Radius * Angle formed in center by the ending points of arc
 
 NB: Angle should be in radian (in C/C++ it is actually in radian)
