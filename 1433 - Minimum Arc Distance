@@ -1,0 +1,20 @@
+Arc distance = Radius * Angle formed in center by the ending points of arc
+
+NB: Angle should be in radian (in C/C++ it is actually in radian)
+
+Find the lengths of all the side length of the triangle OAB.
+You already know the coordinates of O , A & B.
+
+if we know the coordinates of 2 points (x1,y1) & (x2,y2)
+then distance between these two points are sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2))
+
+after finding the sides of OAB triangle we can easily find the angle between OA and OB
+if we denote OA=a ; OB=b ; AB=c 
+and angle between OA and OB is C
+then cos(C)=((b*b+a*a-c*c)/(2*b*a))
+so C=acos((b*b+a*a-c*c)/(2*b*a)) [acos is the notation of cos inverse]
+
+now we know radius and the angle between the ending point of the arc
+
+now what? 
+multiply it....
