@@ -1,0 +1,13 @@
+1069 - Lift
+
+Problem link : http://www.lightoj.com/volume_showproblem.php?problem=1069
+
+lift takes 4 seconds to pass each floor 
+so time needed for the lift to reach me = (difference between lift and my position ) * 4 seconds
+time needed for the lift to reach the ground floor is = (my current position - 0(ground floor)) * 4 seconds
+3 secs to open and close
+door opens 2 times and closes 1 time
+so 3*3 secs to open and close in total
+5 secs to enter and exit in total
+so 5*2 secs to enter and exit in total
+so in total = (difference between lift and my position ) * 4 + (my current position - 0(ground floor)) * 4 + 3*3 + 5*2
