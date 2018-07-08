@@ -1,0 +1,45 @@
+1294 - Positive Negative Sign
+
+Problem link : http://www.lightoj.com/volume_showproblem.php?problem=1294
+
+There is an O{T) solution to this problem.
+suppose
+
+input
+12(n) 3(m) (n is divisible by 2*m always)
+
+so we get
+-1-2-3+4+5+6-7-8-9+10+11+12 = ??
+
+-1-2-3+4+5+6 = 9 = 3*3 = 3*m
+-7-8-9+10+11+12 = 9 = 3*3 = 3*m
+
+so
+-1-2-3+4+5+6-7-8-9+10+11+12 = (3+3)*m = 6*m = (n/2)*m
+
+let's see for another input
+input
+8(n) 2(m)
+-1-2+3+4-5-6+7+8 = ??
+
+-1-2+3+4 = 4 = 2*2 = 2*m;
+-5-6+7+8 = 4 = 2*2 = 2*m;
+
+so
+-1-2+3+4-5-6+7+8 = (2+2)*m = 4*m = (n/2)*m
+
+this can be solved by observation...
+
+now let's see the logic why this happens.
+
+we know that first m numbers will be negative, next m numbers will be positive,
+then next m numbers will be negative and so on...
+It means after exactly m numbers we will get an alternate sign.
+and the sum of the alternate signed numbers will be m.
+
+for every negative number there will be a positive number and their sum will be m.
+In total we get (n/2) positive and (n/2) negative numbers
+
+so the sum will be m*(n/2)
+
+don't forget to use long long here.
