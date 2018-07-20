@@ -1,0 +1,21 @@
+1074 - Extended Traffic
+
+Problem link : http://lightoj.com/volume_showproblem.php?problem=1074
+
+you know how busy each junction is...
+store it in an array or a vector
+
+you have to visualize the problem diffently...
+
+source and destination of an is given
+weight of the edge (busyness of destination - busyness of source)^3
+
+then simply run a bellman ford.
+
+Bellman Ford : (details)
+http://www.shafaetsplanet.com/?p=2044
+https://www.hackerearth.com/practice/algorithms/graphs/shortest-path-algorithms/tutorial/
+
+after that you have the distance between all the nodes and node 1 (node == junction)
+
+The rest is upto you... You know what to do...
