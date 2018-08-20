@@ -1,0 +1,36 @@
+// 1109 - False Ordering
+
+Problem link : http://www.lightoj.com/volume_showproblem.php?problem=1109
+
+firstly find the number of  divisors from 1 to 1000 and store in an array
+then store the all the numbers from 1 to 1000 in another array
+
+now sort the second array using sort function
+here's the main catch
+
+we can sort with some specifications if we want
+for example
+sort(a,a+1000,cmp);
+here cmp is the specification function
+(to know in details about its use visit (there's is a sort section there) -> https://sites.google.com/site/smilitude/stl
+
+here the cmp function will be like
+bool cmp(int x, int y)
+{
+    if(divisor[x]==divisor[y] && x>y)return true;
+    else if(divisor[x]< divisor[y]) return true;
+    else return false;
+}
+
+why? look at the question
+
+Now you have to order all the integers from 1 to 1000. x will come before y if
+1)    number of divisors of x is less than number of divisors of y
+2)    number of divisors of x is equal to number of divisors of y and x > y.
+
+so if the condition fulfills your command will be "Stay,don't swap" so you return true
+else you ask it to swap, so you return false
+so basically if you return true it doesn't swap or else it does that's how the cmp function over there works
+
+after you sort you can just print the number according to the index. I hope you got it.
+
