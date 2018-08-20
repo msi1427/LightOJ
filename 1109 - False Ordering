@@ -12,7 +12,7 @@ we can sort with some specifications if we want
 for example
 sort(a,a+1000,cmp);
 here cmp is the specification function
-(to know in details about its use visit (there's is a sort section there) -> https://sites.google.com/site/smilitude/stl
+(to know in details about its use visit (there's a sort section there) -> https://sites.google.com/site/smilitude/stl )
 
 here the cmp function will be like
 bool cmp(int x, int y)
